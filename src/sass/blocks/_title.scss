@@ -1,0 +1,20 @@
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    &_fs_14 {
+        line-height: 21px;
+        font-size: 14px;
+    }
+    &_fs_16 {
+        font-size: 16px;
+    }
+    &_fs_48 {
+        font-size: 48px;
+    }
+    &_circled {
+        position: relative;
+        z-index: 2;
+        @include before-circle;
+    }
+}
