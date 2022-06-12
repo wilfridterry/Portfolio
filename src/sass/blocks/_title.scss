@@ -9,12 +9,16 @@
     &_fs_16 {
         font-size: 16px;
     }
+    &_fs_36 {
+        font-size: 36px;
+    }
     &_fs_48 {
         font-size: 48px;
     }
     &_circled {
         position: relative;
         z-index: 2;
+        margin-left: 10px;
         @include before-circle;
     }
 }
