@@ -12,11 +12,12 @@
     }
     &__devider {
         margin: auto;
+        margin-top: 20px;
     }
     &__wrapper {
         padding: 60px 65px 0 65px;
         display: grid;
-        grid-template-columns: repeat(2, 425px);
+        grid-template-columns: repeat(2, min(400px, 425px));
         column-gap: 135px;
     }
     &__column {
@@ -98,6 +99,14 @@
 }
 
 @media (max-width: 1200px) {
+    .resume {
+        &__wrapper {
+            column-gap: 50px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
     .resume {
         &__wrapper {
             grid-template-columns: minmax(400px, 600px);
