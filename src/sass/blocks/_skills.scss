@@ -78,6 +78,14 @@
     }
 }
 
+@media (max-width: 1140px) {
+    .skills {
+        &__progress {
+            justify-content: space-around;
+        }
+    }
+}
+
 @media (max-width: 768px) {
     .skills {
         &__progress {
