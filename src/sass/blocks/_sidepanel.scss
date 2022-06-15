@@ -24,3 +24,9 @@
         background-color: black;
     }
 }
+
+@media (max-width: 1200px) {
+    .sidepanel {
+        display: none;
+    }
+}

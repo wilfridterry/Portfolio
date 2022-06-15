@@ -23,3 +23,22 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .promo {
+        &__title {
+            width: 400px;
+            font-size: 28px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .promo {
+        background: no-repeat 60%/cover url('../img/main_bg.jpg');
+
+        &__title {
+            width: 290px;
+        }
+    }
+}
