@@ -498,7 +498,7 @@
                         Or by your form info: 
                     </div>
                     <form action="#" class="contacts__form">
-                       <div class="contacts__form-row">
+
                         <div class="contacts__form-item">
                             <label for="name">Your name</label>
                             <input type="text" name="name" placeholder="Jon">
@@ -507,12 +507,18 @@
                             <label for="email">Your email</label>
                             <input type="email" name="email" placeholder="email@email.com">
                         </div>
-                       </div>
-                        <div class="contacts__form-item">
+
+                        <div class="contacts__form-item contacts__textarea">
                             <label for="message">Your message</label>
                             <textarea name="message"></textarea>
                         </div>
                         <button class="btn btn_small contacts__btn" type="submit">Send message</button>
+                        <div class="contacts__form-item contacts__checkbox">
+                            <input type="checkbox">
+                            <span>I agree</span>
+                            <a href="#"> Privacy Policy</a>
+                        </div>
+
                     </form>
                 </div>
             </div>
