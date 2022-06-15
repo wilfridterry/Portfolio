@@ -78,6 +78,9 @@
             width: 20px;
         }
     }
+    &__checkbox>* {
+        margin-right: 10px;
+    }
     &__btn {
         border: none;
     }
