@@ -62,7 +62,7 @@
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     .about {
         &__grid {
             grid-template-rows: minmax(600px, auto) 1fr;
@@ -95,7 +95,7 @@
             grid-column: unset;
         }
         &__skill {
-            width: 250px;
+            width: 260px;
         }
     }
 }

@@ -109,10 +109,23 @@
 @media (max-width: 991px) {
     .resume {
         &__wrapper {
-            grid-template-columns: minmax(400px, 600px);
-            grid-template-rows: repeat(2, minmax(340px, auto));
+            grid-template-columns: minmax(280px, 600px);
+            grid-template-rows: auto auto;
             row-gap: 50px;
             justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .resume {
+        padding-top: 40px;
+        &__wrapper {
+            padding: 0;
+            padding-top: 65px;
+        }
+        &__item {
+            width: 250px;
         }
     }
 }
